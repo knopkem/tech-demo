@@ -7,6 +7,8 @@ glowing world — reflective sea, luminous lagoon, star-filled sky, moonlight,
 downloaded. No models, no textures, no HDRIs, no audio files: every pixel and
 every sound is generated in code.
 
+Build in one pass (8h) using qwen3.8-27B-4bit (M4 Max 36GB). 
+
 ```
 npm install
 npm run dev        # develop (Vite, port 5173)
