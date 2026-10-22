@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LUMEN HOLLOW — a Three.js flight demo</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <div id="underwater"></div>
+
+    <div id="crosshair"><i></i></div>
+
+    <div id="info-line"></div>
+    <div id="backend-badge"></div>
+    <div id="tier-toast"></div>
+
+    <div id="start-card" class="card">
+      <div class="title">LUMEN&nbsp;HOLLOW</div>
+      <div class="tagline">a bioluminescent archipelago · fully procedural · zero assets</div>
+      <div class="cta">click to begin</div>
+      <div class="controls">
+        <div><b>W A S D</b> fly</div>
+        <div><b>R / F</b> rise · sink</div>
+        <div><b>SHIFT</b> boost</div>
+        <div><b>C</b> cinematic</div>
+        <div><b>ESC</b> pause</div>
+      </div>
+    </div>
+
+    <div id="pause-card" class="card" style="display: none">
+      <div class="title dim">PAUSED</div>
+      <div class="cta">click to resume</div>
+    </div>
+
+    <div id="gpu-lost" class="card" style="display: none">
+      <div class="title dim">GRAPHICS LOST</div>
+      <div class="tagline">the GPU context was interrupted</div>
+      <div class="cta">click to reload</div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
